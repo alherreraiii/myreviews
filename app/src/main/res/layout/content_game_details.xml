@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_game_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="herreraa.myreviews.GameDetailsActivity"
+    tools:showIn="@layout/activity_game_details"
+    android:background="@drawable/paper"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/strTitle"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblGameTitle"
+            android:layout_weight="1"
+            android:layout_width="160dp" />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/txtGameTitle"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:enabled="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/strCompany"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblCompany"
+            android:layout_weight="1"
+            android:layout_width="160dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/txtGameCompany"
+            android:layout_weight="1"
+            android:enabled="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/strGenre"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblGenre"
+            android:layout_weight="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/txtGameGenre"
+            android:layout_weight="1"
+            android:enabled="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/strReviewDate"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblGameReviewDate"
+            android:layout_weight="1"
+            android:layout_width="160dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text|date"
+            android:ems="10"
+            android:id="@+id/txtGameReviewDate"
+            android:layout_weight="1"
+            android:enabled="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical">
+
+        <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rtgStars"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:isIndicator="true"
+        android:layout_weight="1"
+        android:theme="@style/RatingBar"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:text="@string/strReview"
+            android:layout_height="0dp"
+            android:id="@+id/lblGameReview"
+            android:layout_weight="1"
+            android:layout_width="160dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/txtGameReview"
+            android:background="@android:color/darker_gray"
+            android:enabled="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:text="@string/strEdit"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnGameEdit"
+            android:onClick="btnEditOnClick"
+            style="@android:style/Widget.Button" />
+
+        <Button
+            android:text="@string/strDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnGameDelete"
+            android:layout_weight="1"
+            android:onClick="btnDeleteOnClick"
+            android:enabled="false"
+            style="@android:style/Widget.Button" />
+
+        <Button
+            android:text="@string/strSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnGameSave"
+            android:layout_weight="1"
+            android:onClick="btnSaveOnClick"
+            android:enabled="false"
+            style="@android:style/Widget.Button" />
+
+    </LinearLayout>
+
+</LinearLayout>

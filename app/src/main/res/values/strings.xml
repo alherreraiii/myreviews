@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">My Reviews</string>
+    <string name="action_about">About</string>
+    <string name="action_sign_out">Sign out</string>
+    <string name="action_username">username</string>
+    <string name="strBookCoverDescription">Book Cover</string>
+    <string name="strBookTitle">Title:</string>
+    <string name="strBookAuthor">Author:</string>
+    <string name="strBookGenre">Genre:</string>
+    <string name="strBookDateStarted">Start Date:</string>
+    <string name="strBookDateFinished">Finish Date:</string>
+    <string name="strBookStars">Stars:</string>
+    <string name="strBookReview">Review:</string>
+    <string name="strBookEdit">Edit</string>
+    <string name="strBookSave">Save</string>
+    <string name="strFacebookButton">Facebook Button</string>
+    <string name="strTwitterButton">Twitter Button</string>
+    <string name="strGoodreadsButton">Goodreads Button</string>
+    <string name="title_activity_book_list">Books</string>
+    <string name="strReadyPlayerOne">Ready Player One</string>
+    <string name="strSwordArtOnline">Sword Art Online</string>
+    <string name="strLevelZero">Level Zero</string>
+    <string name="strSnowCrash">Snow Crash</string>
+    <string name="lblSearchBooks">Search Books</string>
+    <string name="btnDelete">Delete</string>
+    <string name="title_activity_game_list">Video Games</string>
+    <string name="title_activity_movie_list">Movies</string>
+    <string name="title_activity_game_details">Video Games</string>
+    <string name="strCompany">Company</string>
+    <string name="strTitle">Title</string>
+    <string name="strGenre">Genre</string>
+    <string name="strReviewDate">Review Date</string>
+    <string name="strSave">Save</string>
+    <string name="strDelete">Delete</string>
+    <string name="strEdit">Edit</string>
+    <string name="strReview">Review</string>
+    <string name="strStars">Stars</string>
+    <string name="strBookImageDescription">Books</string>
+    <string name="strVideoGameImageDescription">Video Games</string>
+
+</resources>

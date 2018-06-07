@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_title_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wood2"
+    android:gravity="center_horizontal"
+    tools:context="herreraa.myreviews.TitleScreenActivity">
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/game"
+                android:layout_marginTop="91dp"
+                android:id="@+id/btnGame"
+                android:scaleType="fitCenter"
+                style="@android:style/Widget.ImageButton"
+                android:onClick="btnGameOnClick"
+                android:layout_marginRight="40dp"
+                android:layout_marginEnd="40dp"
+                android:contentDescription="@string/strVideoGameImageDescription" />
+
+            <ImageButton
+                android:layout_width="100dp"
+                app:srcCompat="@drawable/book"
+                android:layout_marginTop="91dp"
+                android:id="@+id/btnBook"
+                android:scaleType="centerInside"
+                android:layout_height="100dp"
+                style="@android:style/Widget.ImageButton"
+                android:onClick="btnBookOnClick"
+                android:layout_marginLeft="31dp"
+                android:layout_marginStart="31dp"
+                android:contentDescription="@string/strBookImageDescription" />
+
+</LinearLayout>

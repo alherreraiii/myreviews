@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "977048542189",
+    "firebase_url": "https://myreviews-21ccb.firebaseio.com",
+    "project_id": "myreviews-21ccb",
+    "storage_bucket": "myreviews-21ccb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977048542189:android:0093a839171b2fa5",
+        "android_client_info": {
+          "package_name": "myreviews.herreraa.myreviews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "977048542189-o283f6e0gc224iou2cq4e9ie4u46p4ia.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "myreviews.herreraa.myreviews",
+            "certificate_hash": "fbe819b6bdec51aca99415529867ad283785c0f2"
+          }
+        },
+        {
+          "client_id": "977048542189-r84k3gdufc6chf095m5j1dejnh7ltg99.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6SSKMEekjLsNgEry4iygLgj7qpgj0wjY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "977048542189-r84k3gdufc6chf095m5j1dejnh7ltg99.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
